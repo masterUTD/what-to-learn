@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+header {
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    background-color: none;
+
+}
+
+header div {
+    padding: 0 .8rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    height: 100%;
+    
+}
+
+header div a {
+    color: black;
+    font-size: 20px;
+    /*line-height: 80%; */
+}
+
+section {
+    position: relative;
+    background-color:rgb(250, 246, 246);
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h3 {
+    text-align: center;
+    font-size:2.1rem;
+    padding: 1rem 0;
+    text-transform: capitalize;
+}
+
+section div {
+    
+   width: 70%;
+   height: 100%;
+
+}
+section div p {
+    line-height: 1.7;
+    font-size:1.1rem;
+}
+
